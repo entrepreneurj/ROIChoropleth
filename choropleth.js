@@ -4,7 +4,7 @@ var data; // loaded asynchronously
 var proj = d3.geo.albers()
           .origin([-7.9,53.3])
           .scale(6000)
-          .translate([300,300]);
+          .translate([450,270]);
 var path = d3.geo.path().projection(proj);
 
 var svg = d3.select("#chart")
